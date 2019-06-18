@@ -1,0 +1,23 @@
+def get():
+    s=input("enter the string in the for mat of a,b:")
+    return s
+
+def compute(str1):
+        x=str1.split(',')
+        z="="
+        y=z.join(x)
+        val=y.split(';')
+        return val
+  
+
+def output(val):
+    print(val)
+    
+
+def main():
+    str1=get()
+    val=compute(str1)
+    output(val)
+
+
+main()
