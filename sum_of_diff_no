@@ -8,7 +8,7 @@ def input1(arr):
 
 def sum_n(arr):
     add=0
-    for i in range(len(arr)):
+    for i in arr:
         add=add+arr[i]
         i=i+1
     return add
